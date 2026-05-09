@@ -310,13 +310,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // ========================================
 // Download CV Button
 // ========================================
-const downloadCvBtn = document.querySelector('.download-cv');
-
-downloadCvBtn?.addEventListener('click', (e) => {
-    e.preventDefault();
-    // You can implement actual CV download logic here
-    alert('CV download functionality - Please add your CV file to the project and update this function.');
-});
+// Let the anchor navigate to the backend `/download-cv` route.
 
 // ========================================
 // Parallax Effect on Hero Section
