@@ -1,3 +1,5 @@
+import os
+
 from flask import Flask, render_template, request, jsonify, send_file
 from pathlib import Path
 import smtplib
@@ -7,7 +9,7 @@ from email.mime.multipart import MIMEMultipart
 app = Flask(__name__)
 
 # Configuration
-app.config['SECRET_KEY'] = 'your-secret-key-here'
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'your-secret-key-here')
 
 @app.route('/')
 def index():
