@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Muhammad Daiym Mughal - AI Undergraduate, ML Intern, Python Developer. Specialized in Machine Learning, NLP, and Data Science.">
-    <meta name="keywords" content="Muhammad Daiym Mughal, AI, Machine Learning, Python, Data Science, NLP, SZABIST, CodeAlpha">
+    <meta name="description" content="Muhammad Daiym Mughal - Full Stack Developer with an AI background (BS AI, SZABIST Islamabad). Builds scalable web apps with React, Node.js, Python/Flask, REST APIs, and databases.">
+    <meta name="keywords" content="Muhammad Daiym Mughal, Full Stack Developer, JavaScript, React, Node.js, Express, Python, Flask, REST APIs, MongoDB, MySQL, SZABIST, CodeAlpha">
     <meta name="author" content="Muhammad Daiym Mughal">
-    <title>Muhammad Daiym Mughal - AI & ML Portfolio</title>
+    <title>Muhammad Daiym Mughal - Full Stack Developer Portfolio</title>
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
@@ -59,10 +59,11 @@
                 <h1 class="hero-title">
                     <span class="typing-text"></span>
                 </h1>
-                <p class="hero-subtitle">AI Undergraduate | ML Intern | Python Developer</p>
+                <p class="hero-subtitle">Full Stack Developer | BS AI Graduate | ML Intern</p>
                 <p class="hero-description">
-                    Dedicated Artificial Intelligence undergraduate with hands-on Python and machine learning experience. 
-                    Strong foundation in data preprocessing, model development, and applied NLP. Seeking opportunities in ML/AI, data science, or Python development.
+                    Full stack developer with a background in Artificial Intelligence (BS AI, SZABIST Islamabad — 2022–2026) and hands-on experience building scalable web applications.
+                    Skilled in responsive front-end development, robust back-end systems, REST API integration, and database management — with additional experience integrating machine learning into applications.
+                    Seeking remote entry-level or junior full stack developer roles.
                 </p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn btn-primary">
@@ -81,10 +82,7 @@
                     <a href="https://github.com/DaiymMughal" target="_blank" class="social-link">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://fiverr.com" target="_blank" class="social-link">
-                        <i class="fas fa-f"></i>
-                    </a>
-                    <a href="mailto:wedaiymamughal123456789@gmail.com" class="social-link">
+                    <a href="mailto:wedaiyammughal123456789@gmail.com" class="social-link">
                         <i class="fas fa-envelope"></i>
                     </a>
                 </div>
@@ -118,23 +116,22 @@
                     </div>
                 </div>
                 <div class="about-text" data-aos="fade-left">
-                    <h3>AI Undergraduate & ML Intern</h3>
+                    <h3>Full Stack Developer</h3>
                     <p>
-                        I am a dedicated Artificial Intelligence undergraduate (BS AI, SZABIST — 2022-2026) with hands-on Python 
-                        and machine learning experience. I have a strong foundation in data preprocessing, model development, and 
-                        applied NLP with computer vision techniques.
+                        I’m a full stack developer with a background in Artificial Intelligence (BS AI, SZABIST Islamabad — 2022–2026).
+                        I build modern, responsive web applications and enjoy working across the stack — from front-end interfaces to backend APIs and databases.
                     </p>
                     <p>
-                        Currently working as a Machine Learning Intern at CodeAlpha, I've contributed to building automated credit 
-                        scoring models, developing NLP-based medical prescription analyzers, and implementing various ML pipelines. 
-                        I'm passionate about applying academic knowledge to real-world projects and continuously growing my technical skills.
+                        During my Machine Learning internship at CodeAlpha (June 2025 – September 2025), I developed and optimized ML models using Python and scikit-learn,
+                        built backend APIs to serve model predictions, and worked on end-to-end data pipelines for training and evaluation.
+                        I’m passionate about turning ideas into products and continuously improving through real-world projects.
                     </p>
                     <div class="about-info">
                         <div class="info-item">
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <span class="info-label">Email</span>
-                                <span class="info-value">wedaiymamughal123456789@gmail.com</span>
+                                <span class="info-value">wedaiyammughal123456789@gmail.com</span>
                             </div>
                         </div>
                         <div class="info-item">
@@ -152,7 +149,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="btn btn-primary download-cv">
+                    <a href="{{ url_for('download_cv') }}" class="btn btn-primary download-cv">
                         <span>Download CV</span>
                         <i class="fas fa-download"></i>
                     </a>
@@ -170,8 +167,137 @@
                 <div class="section-divider"></div>
             </div>
             <div class="skills-grid">
-                <!-- Machine Learning -->
+                <!-- Frontend -->
                 <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>React.js</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML/CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Bootstrap</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Node.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Express.js</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Flask</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MongoDB</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>MySQL</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>SQL</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Machine Learning -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
                     <div class="category-icon">
                         <i class="fas fa-brain"></i>
                     </div>
@@ -180,52 +306,15 @@
                         <div class="skill-item">
                             <div class="skill-info">
                                 <span>scikit-learn</span>
-                                <span>90%</span>
+                                <span>80%</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
+                                <div class="skill-progress" style="width: 80%"></div>
                             </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span>pandas</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>numpy</span>
-                                <span>85%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 85%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Programming -->
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
-                    <div class="category-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Programming</h3>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>Python</span>
-                                <span>90%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>C++</span>
+                                <span>Feature Engineering</span>
                                 <span>75%</span>
                             </div>
                             <div class="skill-bar">
@@ -234,44 +323,7 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span>SQL</span>
-                                <span>70%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Deep Learning & NLP -->
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
-                    <div class="category-icon">
-                        <i class="fas fa-network-wired"></i>
-                    </div>
-                    <h3>Deep Learning & NLP</h3>
-                    <div class="skill-list">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>PyTorch</span>
-                                <span>80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>TensorFlow</span>
-                                <span>80%</span>
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-progress" style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span>NLP</span>
+                                <span>Model Evaluation</span>
                                 <span>75%</span>
                             </div>
                             <div class="skill-bar">
@@ -281,16 +333,16 @@
                     </div>
                 </div>
 
-                <!-- Tools & Software -->
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                <!-- Tools & Concepts -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
                     <div class="category-icon">
                         <i class="fas fa-tools"></i>
                     </div>
-                    <h3>Tools & Software</h3>
+                    <h3>Tools & Concepts</h3>
                     <div class="skill-list">
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span>Git</span>
+                                <span>Git & GitHub</span>
                                 <span>80%</span>
                             </div>
                             <div class="skill-bar">
@@ -299,16 +351,25 @@
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span>Linux</span>
-                                <span>70%</span>
+                                <span>REST APIs</span>
+                                <span>80%</span>
                             </div>
                             <div class="skill-bar">
-                                <div class="skill-progress" style="width: 70%"></div>
+                                <div class="skill-progress" style="width: 80%"></div>
                             </div>
                         </div>
                         <div class="skill-item">
                             <div class="skill-info">
-                                <span>Docker</span>
+                                <span>Authentication & CRUD</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Linux & Docker (basic)</span>
                                 <span>65%</span>
                             </div>
                             <div class="skill-bar">
@@ -332,69 +393,23 @@
             <div class="projects-grid">
                 <!-- Project 1 -->
                 <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-                    <div class="project-image">
-                        <img src="{{ url_for('static', filename='images/project1.jpg') }}" alt="Project 1">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
                     <div class="project-content">
                         <div class="project-tags">
-                            <span class="tag">NLP</span>
-                            <span class="tag">Medical AI</span>
+                            <span class="tag">Full Stack</span>
+                            <span class="tag">OCR/NLP</span>
                         </div>
-                        <h3>MedPres - Medical Prescription Analyzer</h3>
-                        <p>AI-powered NLP system to parse prescriptions and detect potential drug interactions and anomalies. Building data pipelines and ML models for risk assessment.</p>
+                        <h3>MedPres - Medical Prescription System</h3>
+                        <p>Full stack web application to analyze medical prescriptions. Built the frontend with React and backend APIs with Python/Flask, integrating OCR and NLP processing with secure data handling.</p>
                         <div class="project-tech">
-                            <span><i class="fab fa-python"></i> Python</span>
-                            <span><i class="fas fa-brain"></i> NLP</span>
-                            <span><i class="fas fa-flask"></i> ML Models</span>
+                            <span><i class="fab fa-react"></i> React</span>
+                            <span><i class="fab fa-python"></i> Flask</span>
+                            <span><i class="fas fa-brain"></i> OCR/NLP</span>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-                    <div class="project-image">
-                        <img src="{{ url_for('static', filename='images/project2.jpg') }}" alt="Project 2">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">ML</span>
-                            <span class="tag">Credit Scoring</span>
-                        </div>
-                        <h3>Automated Credit Scoring Model</h3>
-                        <p>Built ML pipeline for loan approval prediction with data cleaning, feature engineering, and model evaluation using scikit-learn.</p>
-                        <div class="project-tech">
-                            <span><i class="fab fa-python"></i> Python</span>
-                            <span><i class="fas fa-chart-line"></i> scikit-learn</span>
-                            <span><i class="fas fa-database"></i> Data Processing</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
-                    <div class="project-image">
-                        <img src="{{ url_for('static', filename='images/project3.jpg') }}" alt="Project 3">
-                        <div class="project-overlay">
-                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <div class="project-tags">
-                            <span class="tag">Game Development</span>
-                            <span class="tag">OOP</span>
-                        </div>
-                        <h3>Chess Game Application</h3>
-                        <p>Two-player chess application in Python with full move validation and intuitive interface. Applied OOP principles for modular and maintainable code.</p>
-                        <div class="project-tech">
-                            <span><i class="fab fa-python"></i> Python</span>
-                            <span><i class="fas fa-chess"></i> Game Logic</span>
-                            <span><i class="fas fa-code"></i> OOP</span>
+                        <div style="margin-top: 20px;">
+                            <a href="{{ url_for('download_medpres_apk') }}" class="btn btn-secondary">
+                                <span>Download APK</span>
+                                <i class="fas fa-download"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -419,7 +434,7 @@
                         <span class="timeline-date">June 2025 - Sep 2025</span>
                         <h3>Machine Learning Intern</h3>
                         <h4>CodeAlpha</h4>
-                        <p>Contributed to ML model development and optimization tasks, including data preprocessing and feature engineering. Built automated credit scoring model and assisted in evaluating supervised and unsupervised learning algorithms on real-world datasets.</p>
+                        <p>Developed and optimized ML models using Python and scikit-learn, performed data preprocessing and feature engineering, and built backend APIs to serve model predictions. Worked on end-to-end pipelines for model training and evaluation (accuracy, precision, recall, F1-score) with Git-based collaboration.</p>
                     </div>
                 </div>
 
@@ -431,7 +446,7 @@
                         <span class="timeline-date">2022 - 2026</span>
                         <h3>BS in Artificial Intelligence</h3>
                         <h4>SZABIST Islamabad</h4>
-                        <p>Pursuing Bachelor's degree in Artificial Intelligence with focus on Machine Learning, Deep Learning, NLP, Computer Vision, and Data Structures. Relevant coursework includes Algorithms, Database Systems, and Natural Language Processing.</p>
+                        <p>Completed Bachelor's degree in Artificial Intelligence with focus on Machine Learning, Deep Learning, NLP, Computer Vision, and Data Structures. Relevant coursework includes Algorithms, Database Systems, and Natural Language Processing.</p>
                     </div>
                 </div>
 
@@ -467,14 +482,6 @@
                 <div class="section-divider"></div>
             </div>
             <div class="skills-grid">
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
-                    <div class="category-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>AI Agent Creation</h3>
-                    <p style="color: var(--text-muted); margin-top: 15px;">Elite Global Excellence Workshop (2025)</p>
-                </div>
-
                 <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
                     <div class="category-icon">
                         <i class="fas fa-database"></i>
@@ -497,22 +504,6 @@
                     </div>
                     <h3>ZAB AI CUP</h3>
                     <p style="color: var(--text-muted); margin-top: 15px;">National Competition (2024)</p>
-                </div>
-
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
-                    <div class="category-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Pakistan Red Crescent Society</h3>
-                    <p style="color: var(--text-muted); margin-top: 15px;">Active Associate Member (2023-Present)</p>
-                </div>
-
-                <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
-                    <div class="category-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                    <h3>IT Professional Certification</h3>
-                    <p style="color: var(--text-muted); margin-top: 15px;">Fouji Foundation Technical Center (2019)</p>
                 </div>
             </div>
         </div>
@@ -538,7 +529,7 @@
                             </div>
                             <div class="contact-text">
                                 <h4>Email</h4>
-                                <p>wedaiymamughal123456789@gmail.com</p>
+                                <p>wedaiyammughal123456789@gmail.com</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -547,7 +538,7 @@
                             </div>
                             <div class="contact-text">
                                 <h4>Phone</h4>
-                                <p>+92 315 4192810</p>
+                                <p>+92 315 419 2810</p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -565,7 +556,7 @@
                             </div>
                             <div class="contact-text">
                                 <h4>Available On</h4>
-                                <p>LinkedIn, GitHub, Fiverr</p>
+                                <p>LinkedIn, GitHub</p>
                             </div>
                         </div>
                     </div>
@@ -573,8 +564,7 @@
                     <div class="social-links-contact">
                         <a href="https://www.linkedin.com/in/daiym-mughal-176698301/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://github.com/DaiymMughal" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://fiverr.com" target="_blank"><i class="fas fa-f"></i></a>
-                        <a href="mailto:wedaiymamughal123456789@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="mailto:wedaiyammughal123456789@gmail.com"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
 
@@ -607,7 +597,7 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 Muhammad Daiym Mughal. All rights reserved.</p>
+                <p>&copy; 2026 Muhammad Daiym Mughal. All rights reserved.</p>
                 <p>Designed & Developed with <i class="fas fa-heart"></i></p>
             </div>
         </div>

@@ -64,7 +64,7 @@ navLinks.forEach(link => {
 // Typing Animation
 // ========================================
 const typingText = document.querySelector('.typing-text');
-const texts = ['Muhammad Daiym Mughal', 'AI Undergraduate', 'ML Intern', 'Python Developer', 'Data Scientist'];
+const texts = ['Muhammad Daiym Mughal', 'Full Stack Developer', 'React Developer', 'Node.js Developer', 'Python Developer'];
 let textIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
